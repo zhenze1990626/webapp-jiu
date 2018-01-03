@@ -1,0 +1,82 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+footer {
+  width: 100%;
+  height: 1.2rem;
+  background: #f65050;
+}
+footer p {
+  text-align: center;
+  line-height: 1.2rem;
+  color: #fff;
+  font-size: .45rem;
+}
+.section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  padding: .2rem;
+  box-sizing: border-box;
+}
+.section .home {
+  width: 100%;
+  height: 3rem;
+  background: 0;
+  border-bottom: 1px solid #dfdfdf;
+}
+.section .home p {
+  font-size: .3rem;
+  margin-top: .2rem;
+}
+.section .home p span {
+  float: right;
+}
+.section .home h2 {
+  font-size: .3rem;
+  padding: .2rem 0;
+  box-sizing: border-box;
+}
+.section .home h3 {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .home h3 span {
+  display: block;
+  float: right;
+  border: 1px solid #000;
+  margin: .2rem;
+  width: 1.2rem;
+  height: 0.6rem;
+  background: 0;
+  padding: .04rem .05rem;
+  line-height: .6rem;
+  text-align: center;
+  font-size: .2rem;
+}
+.section .home h3 span a {
+  color: #000;
+}
+.section .home h3 span:first-child {
+  font-size: .1rem;
+  line-height: .3rem;
+  text-align: center;
+  background: #f65050;
+  color: #fff;
+  border: none;
+}
+.section .home .active .s3 {
+  float: left;
+  background: none;
+  color: #f65050;
+  line-height: .6rem;
+  font-size: .2rem;
+}

@@ -1,0 +1,140 @@
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+    overflow-x: hidden;
+}
+
+/*头部*/
+body{
+    background: #ffffff;
+}
+.header6{
+    width: 100%;
+    height:.9rem;
+    background:#f65050;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+    z-index: 3000;
+}
+
+.logo6{
+    width: 1.18rem;
+    height: .5rem;
+    margin: .2rem .24rem ;
+}
+.input6{
+    width: 4.72rem;
+    height: .4rem;
+    border:.04rem solid #ffffff;
+    border-radius:.2rem;
+    margin-top: .21rem;
+    display: flex;
+    flex-direction: row;
+}
+.search6{
+    width: .36rem;
+    height: .36rem;
+    margin-left: .12rem;
+
+}
+.text6{
+    width: 3.4rem;
+    height:.3rem;
+    margin-top: .05rem;
+    margin-left: .1rem;
+    line-height: .3rem;
+    background:#f65050;
+    color: #ffffff;
+}
+.search7{
+    color: #ffffff;
+    font-size: .32rem;
+    font-weight: bold;
+    position: absolute;
+    right:.24rem;
+    top:.25rem;
+}
+
+
+/*轮播图*/
+.focus{
+    margin:.9rem auto 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 4rem;
+    overflow: hidden;
+}
+.focus .hd{
+    position: absolute;
+    bottom: .35rem;
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    z-index: 1;
+}
+.focus .hd ul{
+    display: inline-block;
+    padding: 3px 5px;
+    vertical-align: top;
+    height: 8px;
+    font-size: 0;
+    margin-top: .1rem;
+}
+.focus .hd ul li{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #d4cece;
+    margin: 0 5px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.focus .hd ul .on{
+    background: #ffffff;
+}
+.focus .bd{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.focus .bd li img{
+    width: 100%;
+    max-width: 1080px;
+    height: 3.38rem;
+    vertical-align:top;
+}
+.focus .bd li a{
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+.layout-name{
+    width: 100%;
+    height: 1.45rem;
+    background: #898989;
+    display: flex;
+    flex-direction: row;
+}
+.xiao{
+    width: .84rem;
+    height: .85rem;
+    margin: .3rem .34rem 0 .4rem;
+}
+.name{
+    width:4rem;
+    height: 1.45rem;
+    line-height: 1.45rem;
+    color: #000000;
+    font-size: .3rem;
+    font-weight: bold;
+}

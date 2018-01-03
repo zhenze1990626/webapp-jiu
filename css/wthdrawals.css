@@ -1,0 +1,153 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+.section .myAccount {
+  width: 100%;
+  height: 1.85rem;
+  background: 0;
+  padding: .2rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dfdfdf;
+}
+.section .myAccount dl {
+  font-size: .25rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .myAccount dl dt {
+  padding-right: .5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.section .myAccount dl dt img {
+  width: 1.35rem;
+  height: auto;
+  background: 0;
+}
+.section .myAccount dl dd p {
+  padding-top: .13rem;
+  box-sizing: border-box;
+}
+.section .myAccount dl dd p img {
+  width: 0.33rem;
+  height: auto;
+  background: 0;
+}
+.section .myAccount dl dd h2 {
+  padding-top: .25rem;
+  box-sizing: border-box;
+}
+.section .quota {
+  border-bottom: 1px solid #dfdfdf;
+  padding: .2rem;
+  padding-bottom: .4rem;
+  box-sizing: border-box;
+}
+.section .quota p {
+  font-size: .3rem;
+}
+.section .quota p span {
+  float: right;
+}
+.section .quota h3 {
+  position: relative;
+  font-size: .25rem;
+  line-height: .8rem;
+}
+.section .quota h3 span {
+  float: right;
+}
+.section .quota h3 i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: 0;
+  position: absolute;
+  top: .05rem;
+  text-align: center;
+  left: 1.2rem;
+  line-height: .25rem;
+  border: 1px solid #ff7676;
+  border-radius: 50%;
+  color: #ff7676;
+}
+.section .quota h4 {
+  float: right;
+  color: #a7a7a7;
+  font-size: .25rem;
+}
+.section .money {
+  width: 100%;
+  height: 0.95rem;
+  background: 0;
+  padding: .2rem ;
+  border-bottom: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  line-height: .55rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .money span {
+  display: block;
+  font-size: .35rem;
+  width: 4rem;
+}
+.section .money span i {
+  font-size: .25rem;
+  background: #f65050;
+  padding: .09rem .22rem;
+  margin-left: .4rem;
+  margin-right: 1.3rem;
+  box-sizing: border-box;
+  color: #fff;
+  border-radius: 10px;
+}
+.section .money div {
+  padding-right: 1rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+}
+.section .money div input {
+  border: none;
+  outline: none;
+}
+.section .money p {
+  font-size: .3rem;
+  color: #606060;
+}
+.section .service {
+  width: 100%;
+  height: auto;
+  background: 0;
+  padding: .2rem;
+  box-sizing: border-box;
+  line-height: .6rem;
+}
+.section .service p {
+  font-size: .35rem;
+}
+.section .service h2 {
+  font-size: .3rem;
+  color: #606060;
+}
+footer {
+  width: 100%;
+  height: 1.5rem;
+  background: #f65050;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: .9rem;
+  color: #fff;
+}

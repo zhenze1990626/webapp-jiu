@@ -1,0 +1,200 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  padding: .2rem;
+  box-sizing: border-box;
+}
+.section .state {
+  width: 100%;
+  height: 1.3rem;
+  background: 0;
+}
+.section .state p {
+  font-size: .3rem;
+  font-weight: bold;
+}
+.section .state h2 {
+  margin-top: .2rem;
+  font-size: .25rem;
+  font-weight: bold;
+}
+.section .address {
+  font-size: .25rem;
+  font-weight: bold;
+  width: 100%;
+  height: 1.8rem;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+  padding-top: .2rem;
+  box-sizing: border-box;
+}
+.section .address p span {
+  float: right;
+  font-weight: bold;
+}
+.section .address h2 {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.section .commodity {
+  margin-top: .2rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+}
+.section .commodity p {
+  margin-top: .2rem;
+  font-size: .26rem;
+  line-height: .33rem;
+}
+.section .commodity p img {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: 0;
+}
+.section .commodity p .b2 {
+  width: 0.2rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 {
+  position: relative;
+  margin-top: .2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .commodity .shop2 dl dt {
+  width: 2.35rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl dt img {
+  width: 2.35rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl .d1 {
+  -webkit-box-flex: 1;
+  margin-left: .25rem;
+  font-size: .25rem;
+}
+.section .commodity .shop2 dl .d1 p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: .35rem;
+}
+.section .commodity .shop2 dl .d1 h2 {
+  color: #969696;
+  line-height: .3rem;
+}
+.section .commodity .shop2 dl .d1 h3 {
+  color: #ff4707;
+}
+.section .commodity .shop2 dl .d1 h3 b {
+  float: right;
+  color: #000;
+}
+.section .commodity .shop2 dl .d1 h3 .price {
+  text-decoration: line-through;
+  color: #969696;
+}
+.section .logistics {
+  width: 100%;
+  height: 1.5rem;
+  background: 0;
+  padding-top: .2rem;
+  box-sizing: border-box;
+  border-top: 1px solid #dfdfdf;
+}
+.section .logistics p {
+  font-size: .3rem;
+  font-weight: bold;
+}
+.section .logistics h2 {
+  color: #969696;
+  margin-top: .2rem;
+  font-size: .25rem;
+}
+.section .price {
+  width: 100%;
+  height: 0.6rem;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+  margin-top: .3rem;
+  padding-top: .2rem;
+  box-sizing: border-box;
+  font-size: .3rem;
+}
+.section .price p {
+  color: #969696;
+  padding-bottom: .25rem;
+  box-sizing: border-box;
+}
+.section .price p span {
+  float: right;
+}
+.section .price h2 {
+  font-weight: bold;
+}
+.section .price h2 span {
+  font-weight: bold;
+  float: right;
+}
+.section .returnGoods {
+  width: 100%;
+  height: 1.15rem;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+  margin-top: .3rem;
+  padding: .2rem;
+  box-sizing: border-box;
+}
+.section .returnGoods span {
+  margin-left: .3rem;
+  margin-top: .1rem;
+  display: block;
+  width: 1.8rem;
+  height: 0.5rem;
+  background: 0;
+  border: 1px solid #7C7C7C;
+  line-height: .5rem;
+  text-align: center;
+  float: right;
+  border-radius: 5px;
+}
+.section .returnGoods span:first-child {
+  background: #f65050;
+  color: #fff;
+  border: none;
+}
+.section .order {
+  width: 100%;
+  height: 1.85rem;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+}
+.section .order p {
+  color: #969696;
+  margin-top: .2rem;
+  font-size: .25rem;
+}

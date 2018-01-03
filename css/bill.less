@@ -1,0 +1,358 @@
+@import url(reset.css);
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+.box(@ver: horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+
+.container {
+    .whb(100%, 100%, 0);
+    box-sizing: border-box;
+}
+
+.container {
+    .box(vertical);
+}
+
+.section {
+    .box1{
+        .whb(100%,auto,0);
+//      display: none;
+    }
+    .xiang{
+        display: none;
+    }
+    -webkit-box-flex: 1;
+    overflow: auto;
+    .integral {
+        .whb(100%, 1.25rem, #ff7676);
+         border-bottom: 1px solid #ff7676;
+        .box;
+    }
+    .integral2,.integral1 {
+        -webkit-box-flex: 1;
+       
+        text-align: center;
+        font-size: .6rem;
+        background: #fff;
+        color: #ff7676;
+        line-height: 1.25rem;
+    }
+    
+    .active {
+        background: #ff7676;
+        color: #fff;
+    }
+    .billList {
+       
+        .whb(100%, 1.1rem, 0);
+        span {
+            float: left;
+            .whb(1.4rem, .55rem, 0);
+            border: 1px solid #ff7676;
+            margin-left: .2rem;
+            margin-top: .4rem;
+            margin-right: .2rem;
+            text-align: center;
+            line-height: .55rem;
+            border-radius: 5px;
+            font-size: .25rem;
+            color: #ff7676;
+        }
+        .active2 {
+            background: #ff7676;
+            color: #fff;
+        }
+        span:first-child {
+            margin-left: .3rem;
+        }
+    }
+    .main {
+        padding: 0 .2rem;
+        box-sizing: border-box;
+        .whb(100%, auto, 0);
+        p {
+            font-size: .35rem;
+            margin-top: .2rem;
+        }
+        border-bottom: 8px solid #dfdfdf;
+        padding-bottom:.4rem;
+        box-sizing: border-box;
+    }
+    .main:last-child {
+        border: none;
+    }
+    .pay {
+        position: relative;
+        .whb(100%, auto, 0);
+        
+        box-shadow: 0 0 .5rem #c0c0c0;
+        padding: .2rem;
+        margin-top: .35rem;
+        box-sizing: border-box;
+        p{
+            font-size: .25rem;
+            color: #a0a0a0;
+        }
+        h2{
+            text-align: center;
+            font-size: .5rem;
+        }
+        h3{
+            font-size: .25rem;
+            line-height: .5rem;
+            margin-bottom: .5rem;
+            span{
+                background: #38ad53;
+                color: #fff;
+                padding: .06rem .18rem;
+                border-radius: 10px;
+                margin-right: .2rem;
+            }
+            
+        }
+        .wan{
+            position: absolute;
+            right: 0;
+            top: 0;
+            .whb(1.1rem,auto,0);
+        }
+        .zhi{
+            position: absolute;
+            .whb(.28rem,auto,0);
+            top: 2.5rem;
+            right: .3rem;
+        }
+        .xiang{
+            padding-top: .2rem;
+            box-sizing: border-box;
+            border-top: 1px solid  #dfdfdf;
+            h4{
+                font-size: .25rem;
+                line-height: .5rem;
+                float: left;
+            }
+            h5{
+                float: right;
+                font-size: .25rem;
+                line-height: .5rem;
+                color: #a0a0a0;
+            }
+        }
+ 
+    }
+    
+     .pay2 {
+        position: relative;
+        .whb(100%, auto, 0);
+        
+        box-shadow: 0 0 .5rem #c0c0c0;
+        padding: .2rem;
+        margin-top: .35rem;
+        box-sizing: border-box;
+        p{
+            font-size: .25rem;
+            color: #a0a0a0;
+        }
+        h2{
+            text-align: center;
+            font-size: .5rem;
+        }
+        h3{
+            font-size: .25rem;
+            line-height: .5rem;
+            margin-bottom: .5rem;
+            span{
+                background: #ff7327;
+                color: #fff;
+                padding: .06rem .18rem;
+                border-radius: 10px;
+                margin-right: .2rem;
+            }
+            
+        }
+        .wan{
+            position: absolute;
+            right: 0;
+            top: 0;
+            .whb(1.1rem,auto,0);
+        }
+        .zhi{
+            position: absolute;
+            .whb(.28rem,auto,0);
+            top: 2.5rem;
+            right: .3rem;
+        }
+        .xiang{
+            padding-top: .2rem;
+            box-sizing: border-box;
+            border-top: 1px solid  #dfdfdf;
+            h4{
+                font-size: .25rem;
+                line-height: .5rem;
+                float: left;
+            }
+            h5{
+                float: right;
+                font-size: .25rem;
+                line-height: .5rem;
+                color: #a0a0a0;
+            }
+        }
+ 
+    }
+         .pay3 {
+        position: relative;
+        .whb(100%, auto, 0);
+        
+        box-shadow: 0 0 .5rem #c0c0c0;
+        padding: .2rem;
+        margin-top: .35rem;
+        box-sizing: border-box;
+        p{
+            font-size: .25rem;
+            color: #a0a0a0;
+        }
+        h2{
+            text-align: center;
+            font-size: .5rem;
+        }
+        h3{
+            font-size: .25rem;
+            line-height: .5rem;
+            margin-bottom: .5rem;
+            span{
+                background: #ff0f0f;
+                color: #fff;
+                padding: .06rem .18rem;
+                border-radius: 10px;
+                margin-right: .2rem;
+            }
+            
+        }
+        .wan{
+            position: absolute;
+            right: 0;
+            top: 0;
+            .whb(1.1rem,auto,0);
+        }
+        .zhi{
+            position: absolute;
+            .whb(.28rem,auto,0);
+            top: 2.5rem;
+            right: .3rem;
+        }
+        .xiang{
+            padding-top: .2rem;
+            box-sizing: border-box;
+            border-top: 1px solid  #dfdfdf;
+            h4{
+                font-size: .25rem;
+                line-height: .5rem;
+                float: left;
+                width: 100%;
+            }
+            h5{
+                float: right;
+                font-size: .25rem;
+                line-height: .5rem;
+                color: #a0a0a0;
+            }
+        }
+ 
+    }
+             .pay4 {
+        position: relative;
+        .whb(100%, auto, 0);
+        
+        box-shadow: 0 0 .5rem #c0c0c0;
+        padding: .2rem;
+        margin-top: .35rem;
+        box-sizing: border-box;
+        p{
+            font-size: .25rem;
+            color: #a0a0a0;
+        }
+        h2{
+            text-align: center;
+            font-size: .5rem;
+        }
+        h3{
+            font-size: .25rem;
+            line-height: .5rem;
+            margin-bottom: .5rem;
+            span{
+                background: #ff0f0f;
+                color: #fff;
+                padding: .06rem .18rem;
+                border-radius: 10px;
+                margin-right: .2rem;
+            }
+            
+        }
+        .again{
+            display: block;
+            position: absolute;
+            color: #fff;
+            border-radius: 5px;
+            top: 1.3rem;
+            right: .3rem;
+            .whb(1.6rem,.7rem,#f65050);
+            text-align: center;
+            line-height: .7rem;
+        }
+        .wan{
+            position: absolute;
+            right: 0;
+            top: 0;
+            .whb(1.1rem,auto,0);
+        }
+        .zhi{
+            position: absolute;
+            .whb(.28rem,auto,0);
+            top: 2.5rem;
+            right: .3rem;
+        }
+        .xiang{
+           
+            padding-top: .2rem;
+            box-sizing: border-box;
+            border-top: 1px solid  #dfdfdf;
+            h4{
+                font-size: .25rem;
+                line-height: .5rem;
+                float: left;
+                width: 100%;
+            }
+            h5{
+                float: right;
+                font-size: .25rem;
+                line-height: .5rem;
+                color: #a0a0a0;
+            }
+        }
+ 
+    }
+    .box2{
+        h3{
+           margin-left: .4rem;
+        }
+        h4{
+            float: right;
+            font-size: .25rem;
+            color: #a0a0a0;
+        }
+    }
+    
+    .no{
+        h2{
+          text-decoration:line-through ;
+        }
+    }
+
+}

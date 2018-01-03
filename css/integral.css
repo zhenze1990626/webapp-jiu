@@ -1,0 +1,154 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.section .integral {
+  width: 100%;
+  height: 1.8rem;
+  background: #ff7676;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .integral2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: .3rem;
+  color: #fff;
+}
+.section .integral2 p {
+  font-size: .6rem;
+}
+.section .integral2 h2 {
+  font-size: .26rem;
+}
+.section .main {
+  padding: 0 .2rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border-bottom: 8px solid #dfdfdf;
+  padding-bottom: .4rem;
+  box-sizing: border-box;
+}
+.section .main p {
+  font-size: .35rem;
+  margin-top: .2rem;
+}
+.section .main:last-child {
+  border: none;
+}
+.section .pay {
+  width: 100%;
+  height: 2.8rem;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+.section .pay dl dt {
+  border: .08rem solid #ccc;
+  line-height: 2.08rem;
+  width: 2.08rem;
+  height: 2.08rem;
+  background: 0;
+  margin-top: .03rem;
+}
+.section .pay dl dt img {
+  width: 1.65rem;
+  height: auto;
+  background: 0;
+}
+.section .pay dl dd {
+  text-align: center;
+  width: 4.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay dl dd h2 {
+  line-height: .7rem;
+  color: #f65050;
+  font-size: .24rem;
+}
+.section .pay dl dd h2 span {
+  font-size: .7rem;
+}
+.section .pay dl dd h3 {
+  text-align: left;
+  padding-left: .2rem;
+  box-sizing: border-box;
+  font-size: .24rem;
+}
+.section .pay dl dd h4 {
+  float: right;
+  color: #a0a0a0;
+  font-size: .24rem;
+}
+.section .pay2 {
+  width: 100%;
+  height: 2.8rem;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  text-align: center;
+}
+.section .pay2 dl dt {
+  border: .08rem solid #ccc;
+  line-height: 2.08rem;
+  width: 2.08rem;
+  height: 2.08rem;
+  background: 0;
+  margin-top: .03rem;
+}
+.section .pay2 dl dt img {
+  width: 1.65rem;
+  height: auto;
+  background: 0;
+}
+.section .pay2 dl dd {
+  text-align: center;
+  width: 4.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay2 dl dd h2 {
+  line-height: .7rem;
+  color: #16941c;
+  font-size: .24rem;
+}
+.section .pay2 dl dd h2 span {
+  font-size: .7rem;
+}
+.section .pay2 dl dd h3 {
+  text-align: left;
+  padding-left: .2rem;
+  box-sizing: border-box;
+  font-size: .24rem;
+}
+.section .pay2 dl dd h4 {
+  float: right;
+  color: #a0a0a0;
+  font-size: .24rem;
+}

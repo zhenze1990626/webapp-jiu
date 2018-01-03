@@ -1,0 +1,251 @@
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+}
+.header{
+    top:0;
+    width: 100%;
+    height: .9rem;
+    background: #f65050;
+    height: .9rem;
+    line-height: .9rem;
+    position: fixed;
+    top:0;
+    z-index: 1000;
+    color: #ffffff;
+    font-size: .34rem;
+    font-weight:bold;
+}
+.back3{
+    width:.28rem;
+    height:.4rem;
+
+}
+.car{
+    width:3rem;
+    height:100%;
+    position:absolute;
+    left:.2rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.car span{
+    margin-left: .13rem;
+
+}
+.search{
+    width: .43rem;
+    height: .45rem;
+    margin-top: .23rem;
+    position: absolute;
+    right: .3rem;
+}
+
+.search2{
+    width:1rem;
+    height: 100%;
+    position: absolute;
+    right:0;
+}
+.center{
+    width: 3rem;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    left:50%;
+    margin-left: -1.5rem;
+    font-size: .34rem;
+    color: #ffffff;
+}
+/*中间自适应*/
+.country{
+    width: 100%;
+    position: absolute;
+    top:.9rem;
+    bottom: 1.5rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+}
+
+.country2{
+    width: 100%;
+    position: absolute;
+    top:.9rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+    z-index: 100;
+}
+.layout-name{
+    width: 100%;
+    height: 1.45rem;
+    background: #898989;
+    display: flex;
+    flex-direction: row;
+}
+.xiao{
+    width: .84rem;
+    height: .85rem;
+    margin: .3rem .34rem 0 .4rem;
+}
+.name{
+    width:4rem;
+    height: 1.45rem;
+    line-height: 1.45rem;
+    color: #000000;
+    font-size: .3rem;
+    font-weight: bold;
+}
+
+
+/*菜单*/
+
+
+.go{
+    width: .23rem;
+    height:.33rem;
+    position: absolute;;
+    right: .16rem;
+    top:.26rem;
+}
+.back{
+	width: .18rem;
+	height: .32rem;
+}
+
+
+.list{
+    width: 100%;
+    height:1.15rem;
+    line-height: 1.15rem;
+    position: relative;
+    border-bottom: 3px solid #dfdfdf;
+}
+.list span{
+    font-size: .34rem;
+    color:#000000;
+    font-weight: bold;
+    position: absolute;
+    left: .2rem;
+}
+.list cite{
+    font-size: .3rem;
+    color:#676767;
+    font-weight: bold;
+    position: absolute;
+    right: .2rem;
+}
+.list div{
+    font-size: .3rem;
+    color:#676767;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: absolute;
+    right:.2rem;
+}
+.list em{
+    font-size: .3rem;
+    color:#676767;
+    width: .3rem;
+    height:100%;
+    font-weight: bold;
+    position: absolute;
+    right: .2rem;
+}
+.list-img{
+    width:.33rem;
+    height: .33rem;
+    margin-top: .41rem;
+}
+
+.list2{
+    width: 100%;
+    height:2.5rem;
+    border-bottom: 3px solid #dfdfdf;
+    background: #ffffff;
+    position: relative;
+    display: none;
+}
+.black{
+    width: 100%;
+    height:.3rem;
+    background:#dfdfdf;
+}
+
+.list-layout{
+    width: 100%;
+    height: .32rem;
+    position: relative;
+
+}
+.list-layout cite{
+    color: #969696;
+    font-size: .32rem;
+    position: absolute;
+    left: .2rem;
+    font-weight: bold;
+}
+.list-layout em{
+    color: #969696;
+    font-size: .3rem;
+    font-weight: bold;
+    position: absolute;
+    right: .2rem;
+}
+.dot-top {
+    font-size: 0;
+    line-height: 0;
+    border-width:.54rem;
+    border-color:#ffffff;
+    border-top-width: 0;
+    border-style: dashed;
+    border-bottom-style: solid;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    position: absolute;
+    left: .1rem;
+    top:0;
+}
+.concat{
+	width: 100%;
+	height: 8.93rem;
+}
+.p-text{
+	width: 100%;
+	height: auto;
+	margin-left: .2rem;
+
+}
+.p-text div{
+	color: #353535;
+	font-weight: bold;
+	font-size: .34rem;
+	width: 100%;
+	height: auto;
+}
+.p-text p{
+	color: #5f5f5f;
+	font-weight: bold;
+	font-size: .34rem;
+	width: 100%;
+	height: auto;
+	margin-top: .18rem;
+}
+.p-text p span{
+	margin-left: .35rem;
+	display: inline-block;
+} 
+.p-text p em{
+	display: inline-block;
+	
+}

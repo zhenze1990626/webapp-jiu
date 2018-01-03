@@ -1,0 +1,137 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  overflow: auto;
+  padding: .2rem;
+  box-sizing: border-box;
+}
+.section .member {
+  margin-bottom: .3rem;
+  border: 1px solid #f65050;
+  height: .7rem;
+  border-radius: 20px;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .member span {
+  display: block;
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: .7rem;
+}
+.section .member span:first-child {
+  border-radius: 20px  0 0 20px;
+}
+.section .member span:last-child {
+  border-radius: 0  20px 20px 0;
+}
+.section .member .active {
+  color: #fff;
+  background: #f65050;
+}
+.section .member span {
+  color: #f65050;
+}
+.section .memberListOne {
+  display: none;
+}
+.section .memberListOne p {
+  border-top: 1px solid  #dfdfdf;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+.section .memberListOne p span {
+  float: right;
+  color: #9f9f9f;
+}
+.section .memberListTwo {
+  display: none;
+}
+.section .memberListTwo p {
+  border-top: 1px solid  #dfdfdf;
+  line-height: 1rem;
+  font-size: .3rem;
+}
+.section .memberListTwo p span {
+  float: right;
+  color: #9f9f9f;
+}
+.section .nullMeber {
+  display: none;
+  border-bottom: 1px solid #dfdfdf ;
+  border-top: 1px solid #dfdfdf;
+  width: 100%;
+  height: auto;
+  background: 0;
+  padding-bottom: .6rem;
+  box-sizing: border-box;
+}
+.section .nullMeber p {
+  text-align: center;
+  margin-top: .6rem;
+}
+.section .nullMeber p img {
+  width: 4.25rem;
+  height: auto;
+  background: 0;
+}
+.section .nullMeber h2 {
+  padding-top: .3rem;
+  box-sizing: border-box;
+  text-align: center;
+  font-size: .3rem;
+}
+.section .nullMeber h3 {
+  text-align: center;
+  font-size: .25rem;
+  color: #7c7c7c;
+  line-height: 1rem;
+  box-sizing: border-box;
+}
+.section .prompt {
+  display: none;
+  position: relative;
+  padding-top: .3rem;
+  width: 100%;
+  height: 5rem;
+  background: 0;
+  box-sizing: border-box;
+}
+.section .prompt p {
+  color: #7c7c7c;
+  text-indent: .4rem;
+  font-size: .25rem;
+  line-height: .5rem;
+}
+.section .prompt p span {
+  color: #d74646;
+}
+.section .prompt .zhi {
+  width: 0.65rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  left: 3.3rem;
+  top: 2rem;
+}
+.section .prompt h2 {
+  padding-top: 1.5rem;
+  text-align: center;
+}
+.section .prompt h2 span {
+  background: #f65050;
+  color: #fff;
+  padding: .35rem 1.1rem;
+  font-size: .4rem;
+  box-sizing: border-box;
+  border-radius: 10px;
+}

@@ -1,0 +1,239 @@
+/*头部*/
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+}
+
+.header{
+    width: 100%;
+    height:.9rem;
+    background:#f65050;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+}
+
+.logo{
+    width: 1.18rem;
+    height: .5rem;
+    margin: .2rem .24rem ;
+}
+.input{
+    width: 4.72rem;
+    height: .4rem;
+    border:.04rem solid #ffffff;
+    border-radius:.2rem;
+    margin-top: .21rem;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: .36rem;
+    height: .36rem;
+    margin-left: .12rem;
+
+}
+.text{
+    width: 3.4rem;
+    height:.3rem;
+    margin-top: .05rem;
+    margin-left: .1rem;
+    line-height: .3rem;
+    background:#f65050;
+    color: #ffffff;
+}
+.search2{
+    color: #ffffff;
+    font-size: .32rem;
+    font-weight: bold;
+    position: absolute;
+    right:.24rem;
+    top:.29rem;
+}
+
+/*中间自适应*/
+.cust{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top:.9rem;
+    z-index: 100;
+    bottom:1.38rem ;
+}
+.cicle2{
+    text-align: center;
+    width: 100%;
+    font-size:.38rem;
+    color:#000000;
+    font-weight: bold;
+    margin-top:.6rem;
+    margin-bottom: .8rem;
+}
+
+/*banner图*/
+.focus{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height:4.9rem;
+    overflow: hidden;
+}
+.focus .hd{
+    position: absolute;
+    bottom:.2rem;
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    z-index:100000;
+}
+.focus .hd ul{
+    display: inline-block;
+    padding: 3px 5px;
+    vertical-align: top;
+    height: 8px;
+    font-size: 0;
+}
+.focus .hd ul li{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color:#ffffff;
+    border: .05rem solid #dfdfdf;
+    margin: 0 5px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.focus .hd ul .on{
+    width: .6rem;
+    height: .24rem;
+    background: #dfdfdf;
+    border-radius:.12rem;
+}
+.focus .bd{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.focus .bd li img{
+    width: 100%;
+    max-width: 1080px;
+    height: 3.38rem;
+    vertical-align:top;
+}
+.focus .bd li a{
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+/*定制详情*/
+.jifen{
+    width: 100%;
+    height: .78rem;
+    line-height: .78rem;
+    border-top:.05rem solid #dfdfdf;
+    border-bottom:.05rem solid #dfdfdf;
+    margin-top: .3rem;
+}
+.jifen-1{
+    font-size:.14rem;
+    color:#838383;
+    font-weight: bold;
+    float: left;
+    padding-left: .2rem;
+    overflow-x: hidden;
+    margin-top: -.05rem;
+    overflow-x: hidden;
+}
+.jifen-1 b{
+    font-size:.3rem;
+    color:#ff4707;
+}
+.jifen-1 span{
+    font-size:.3rem;
+    color:#ff4707;
+    margin-right: .05rem;
+}
+.jifen-2{
+    font-size:.14rem;
+    color:#838383;
+    font-weight: bold;
+    float: right;
+    padding-right: .2rem;
+    overflow-x: hidden;
+}
+/*品牌*/
+.pinpai{
+    width: 100%;
+    height: 1.6rem;
+    border-bottom:.05rem solid #dfdfdf;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    font-size: .34rem;
+    color: #000000;
+}
+.pinpai-1{
+    height: .8rem;
+    width: 100%;
+    line-height: .8rem;
+}
+.pinpai-1 ul li:first-child{
+    float: left;
+    padding-left: .2rem;
+    overflow-x: hidden;
+}
+.pinpai-1 ul li:nth-child(2){
+    float: right;
+    padding-right: .2rem;
+    overflow-x: hidden;
+}
+.pinpai-1 span{
+    color: #f65050;
+}
+
+.pinpai-1 em{
+    color: #ffb607;
+}
+
+.pinpai-1 b{
+    color: #50c9f6;
+}
+
+.pinpai-1 i{
+    color: #3cbf3c;
+    font-style: normal;
+}
+.beijing{
+    width:90%;
+    height: 31.77rem;
+    margin-left: .4rem;
+}
+/*底部*/
+.foot{
+    width: 100%;
+    height: 1.38rem;
+    background: #f65050;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    line-height: 1.38rem;
+    font-size:.66rem;
+    color:#ffffff;
+    font-weight: bold;
+    box-shadow: .08rem .08rem .08rem #bcabab;
+    z-index: 100000;
+}
+.box{
+    box-shadow: 0 -.08rem .1rem #bcabab;
+}

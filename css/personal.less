@@ -1,0 +1,219 @@
+@import url(reset.css);
+.whb(@w, @h, @b) {
+    width: @w;
+    height: @h;
+    background: @b;
+}
+
+.box(@ver: horizontal) {
+    display: -webkit-box;
+    -webkit-box-orient: @ver;
+}
+
+.container {
+    .whb(100%, 100%, 0);
+    box-sizing: border-box;
+}
+
+.container {
+    .box(vertical);
+    
+}
+header{
+    .whb(100%,3.8rem,#f65050);
+    text-align: center;
+    
+    dl{
+        dt{
+            margin-top: .4rem;
+            img{
+                .whb(2.1rem,auto,0);
+            }
+        }
+        dd{
+            line-height: 1rem;
+            font-size: .46rem;
+            color: #fff;
+        }
+    }
+}
+footer {
+    color: #94908b;
+    .whb(100%, 1.1rem, 0);
+    border-top: 1px solid #afafaf;
+    padding-top: .1rem;
+    box-sizing: border-box;
+    font-size: .2rem;
+    .box;
+    dl {
+        -webkit-box-flex: 1;
+        text-align: center;
+        dt {
+            img {
+                .whb(.5rem, .5rem, 0);
+            }
+        }
+    }
+    .active {
+        color: #f65050;
+    }
+}
+.section{
+    -webkit-box-flex: 1;
+    overflow: auto;
+    .model{
+//      img{
+//               margin-bottom: .08rem;
+//      }
+        padding: 0 .2rem;
+        box-sizing: border-box;
+        .whb(100%,1rem,0);
+        border-bottom: 1px solid #dfdfdf;
+        line-height: 1rem;
+       
+        span{
+            color: #969696;
+            float: right;
+             font-size: .28rem;
+            .go{
+               margin-bottom: .05rem;
+                .whb(.2rem,auto,0);
+                margin-left: .1rem;
+            }
+            .ewm{
+                .whb(.3rem,.3rem,0);
+            
+                
+            }
+        }
+        p{
+           font-size: .36rem; 
+            img{
+                .whb(.45rem,auto,0);
+            }
+        }
+    }
+    .td{
+         border-bottom: .1rem solid #dfdfdf;
+    }
+    .zt{
+        .whb(100%,1.7rem,0);
+        border-bottom: .1rem solid #dfdfdf;
+        .box;
+        dl{
+            -webkit-box-flex: 1;
+            margin-top: .25rem;
+            text-align: center;
+            position: relative;
+            dt{
+               
+                img{
+                    .whb(1rem,auto,0);
+                  
+                }
+            }
+            dd{
+                line-height: .6rem;
+                font-size: .25rem;
+                span{
+                    position: absolute;
+                    left: 1.1rem;
+                    z-index: 5;
+                    
+                    top: -.1rem;
+                    display: block;
+                    .whb(.4rem,.4rem,#fff);
+                    border-radius: 50px;
+                    border: .05rem solid #ff0000 ;
+                    text-align: center;
+                    line-height: .4rem;
+                    color: #ff0000;
+                }
+            }
+        }
+    }
+    
+    .alert10{
+ width: 100%;
+ height: 8rem;
+ position: absolute;
+ top:50%;
+ margin-top: -3.38rem;
+ z-index: 100;
+ background:#e9e9e9;
+display: none;
+}
+
+/*弹窗*/
+.black3{
+ width: 100%;
+ height: 100%;
+ position: fixed;
+ top:0;
+ background: #666666;
+ z-index:50;
+ display: none;
+ filter:alpha(opacity=70);  /*支持 IE 浏览器*/
+ -moz-opacity:0.7; /*支持 FireFox 浏览器*/
+ -khtml-opacity: 0.7; /*webkit内核浏览器*/
+ opacity:0.7;  /*支持 Chrome, Opera, Safari 等浏览器*/
+
+}
+
+
+
+.title{
+ width: 100%;
+ height: 1rem;
+ line-height: 1rem;
+ background: #ffffff;
+ color:#f65050;
+ font-weight: bold;
+ font-size:.54rem ;
+ padding-left: .3rem;
+ border-bottom: .1rem solid #e9e9e9;
+
+}
+.title2{
+ width: 100%;
+ height: 4.46rem;
+ background: #ffffff;
+}
+
+.title3{
+ width: 100%;
+ height: 1.1rem;
+ background: #f65050;
+ text-align: center;
+ line-height: 1.12rem;
+ font-size:.62rem;
+ color: #fff;
+ font-weight: bold;
+ margin-top: .5rem;
+}
+
+.title2-text{
+ width: 100%;
+ height: .34rem;
+ font-size:.34rem;
+ color: #000000;
+ text-align: center;
+ font-weight: bold;
+ padding: .2rem 0 .55rem .24rem;
+}
+.black4{
+ width: 2.7rem;
+ height: 2.7rem;
+ margin-left: 2.4rem;
+ margin-top: .1rem;
+
+}
+.txt{
+    padding: 0 1rem 0 1rem;
+    box-sizing: border-box;
+    color: #545454;
+    font-size: .25rem;
+}
+
+
+}

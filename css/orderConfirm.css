@@ -1,0 +1,220 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  padding: .2rem;
+  -webkit-box-flex: 1;
+  overflow: auto;
+  box-sizing: border-box;
+}
+.section .state {
+  width: 100%;
+  height: 1.3rem;
+  background: 0;
+}
+.section .state p {
+  font-size: .3rem;
+  font-weight: bold;
+}
+.section .state h2 {
+  margin-top: .2rem;
+  font-size: .25rem;
+  font-weight: bold;
+}
+.section .address {
+  font-size: .25rem;
+  font-weight: bold;
+  width: 100%;
+  height: 1.8rem;
+  background: 0;
+  padding-top: .2rem;
+  box-sizing: border-box;
+}
+.section .address p span {
+  float: right;
+  font-weight: bold;
+}
+.section .address h2 {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.section .commodity {
+  margin-top: .2rem;
+  padding: .2rem 0;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+}
+.section .commodity p {
+  margin-top: .2rem;
+  font-size: .26rem;
+  line-height: .33rem;
+}
+.section .commodity p img {
+  width: 0.35rem;
+  height: 0.35rem;
+  background: 0;
+}
+.section .commodity p .b2 {
+  width: 0.2rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 {
+  position: relative;
+  margin-top: .2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .commodity .shop2 dl dt {
+  width: 2.35rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl dt img {
+  width: 2.35rem;
+  height: auto;
+  background: 0;
+}
+.section .commodity .shop2 dl .d1 {
+  -webkit-box-flex: 1;
+  margin-left: .25rem;
+  font-size: .25rem;
+}
+.section .commodity .shop2 dl .d1 p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+  line-height: .35rem;
+}
+.section .commodity .shop2 dl .d1 h2 {
+  color: #969696;
+  line-height: .3rem;
+}
+.section .commodity .shop2 dl .d1 h3 {
+  color: #ff4707;
+}
+.section .commodity .shop2 dl .d1 h3 b {
+  float: right;
+  color: #000;
+}
+.section .commodity .shop2 dl .d1 h3 .price {
+  text-decoration: line-through;
+  color: #969696;
+}
+.section .payment,
+.section .freight {
+  width: 100%;
+  height: 0.85rem;
+  background: 0;
+  margin-top: .2rem;
+  border-top: 1px solid #dfdfdf;
+  padding-top: .2rem;
+  box-sizing: border-box;
+}
+.section .payment p,
+.section .freight p {
+  line-height: .65rem;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.section .payment p span,
+.section .freight p span {
+  font-weight: bold;
+  float: right;
+}
+.section .payment p span img,
+.section .freight p span img {
+  width: 0.38rem;
+  height: auto;
+  background: 0;
+  margin-right: .15rem;
+}
+.section .freight p span {
+  color: #f65050;
+}
+.section .disclaimer {
+  width: 100%;
+  height: 0.85rem;
+  background: 0;
+  margin-top: .2rem;
+  border-top: 1px solid #dfdfdf;
+  padding-top: .2rem;
+  box-sizing: border-box;
+  position: relative;
+}
+.section .disclaimer p {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .disclaimer p b {
+  display: block;
+  width: 30%;
+  font-size: .3rem;
+  color: #7c7c7c;
+}
+.section .disclaimer p span {
+  display: block;
+}
+.section .disclaimer p .check {
+  position: absolute;
+  right: 0;
+  top: .2rem;
+  width: 0.45rem;
+  height: 0.42rem;
+  background: 0;
+  background: url(../img/check.png) no-repeat;
+  background-size: .36rem, .42rem;
+}
+.section .disclaimer p .check:checked {
+  background: url(../img/checked.png) no-repeat;
+  background-size: .36rem, .42rem;
+}
+footer {
+  width: 100%;
+  height: 1.5rem;
+  background: 0;
+}
+footer span {
+  font-size: .45rem;
+  display: block;
+  width: 50%;
+  height: 100%;
+  background: 0;
+  line-height: .7rem;
+  float: left;
+  text-align: center;
+  color: #787878;
+}
+footer span p {
+  font-size: .25rem;
+  color: #ababab;
+}
+footer span b {
+  color: #f65050;
+}
+footer span:last-child {
+  background: #f65050;
+  line-height: 1.5rem;
+  font-size: .65rem;
+  color: #fff;
+}

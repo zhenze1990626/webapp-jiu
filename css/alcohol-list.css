@@ -1,0 +1,167 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  padding: 0 .2rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.section .title {
+  width: 100%;
+  height: 1.64rem;
+  background: 0;
+  text-align: center;
+  padding-top: .4rem;
+  box-sizing: border-box;
+}
+.section .title p {
+  font-size: .34rem;
+  font-weight: 600;
+}
+.section .title span {
+  margin-right: .17rem;
+  width: 1.5rem;
+  height: 0.54rem;
+  background: #f65050;
+  line-height: .54rem;
+  padding: .12rem .5rem;
+  border-radius: 15px;
+  font-size: .34rem;
+  font-weight: bold;
+  color: #fff;
+}
+.section .title h2 {
+  font-size: .22rem;
+  color: #939393;
+  line-height: .6rem;
+}
+.section .yy {
+  width: 100%;
+  height: 10px;
+  background: 0;
+  box-shadow: 0px 10px 10px #e5e5e5;
+}
+.section .main {
+  padding: 0 .2rem;
+  padding-top: .01rem;
+  box-sizing: border-box;
+  margin-top: .3rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .main .list {
+  width: 100%;
+  height: auto;
+  background: 0;
+  border: 1px solid #c8c2c2;
+  border-radius: 25px;
+  margin-top: .4rem;
+  position: relative;
+  padding-right: .2rem;
+  padding: .2rem .05rem .2rem .2rem;
+  box-sizing: border-box;
+}
+.section .main .list dl {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .main .list dl dt {
+  position: relative;
+}
+.section .main .list dl dt img {
+  margin-left: .2rem;
+  margin-right: .2rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  background: 0;
+}
+.section .main .list dl dt .video {
+  width: 0.9rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  top: .85rem;
+  left: .85rem;
+}
+.section .main .list dl dd {
+  -webkit-box-flex: 1;
+  width: 3.2rem;
+}
+.section .main .list dl dd .new {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0.74rem;
+  height: 0.74rem;
+  background: 0;
+}
+.section .main .list dl dd p {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+  color: #838383;
+}
+.section .main .list dl dd span {
+  display: block;
+  width: 1.13rem;
+  height: 0.46rem;
+  background: #f15626;
+  line-height: .46rem;
+  float: right;
+  text-align: center;
+  color: #fff;
+  border-radius: 15px;
+  padding: .1rem .2rem;
+}
+.section .main .list dl dd h3 {
+  color: #838383;
+  line-height: .5rem;
+}
+.section .main .list dl dd h2 {
+  line-height: .4rem;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.page {
+  width: 100%;
+  height: 0.7rem;
+  background: 0;
+  border: 1px solid #c9c3c3;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  border-radius: 15px;
+}
+.page ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.page ul li {
+  color: #c9c3c3;
+  -webkit-box-flex: 1;
+  border-right: 1px solid #c9c3c3;
+  text-align: center;
+  line-height: .7rem;
+}
+.page ul li img {
+  width: 0.65rem;
+  height: 0.45rem;
+  background: 0;
+}
+.page ul .active {
+  background: #f65050;
+  color: #fff;
+}
+.page ul .right {
+  border: none;
+}

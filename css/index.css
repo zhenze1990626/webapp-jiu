@@ -1,0 +1,301 @@
+/*头部*/
+body{
+    background: #ffffff;
+}
+.header{
+    width: 100%;
+    height:.9rem;
+    background:#f65050;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+}
+
+.logo{
+    width: 1.18rem;
+    height: .5rem;
+    margin: .2rem .24rem ;
+}
+.input{
+    width: 4.72rem;
+    height: .4rem;
+    border:.04rem solid #ffffff;
+    border-radius:.2rem;
+    margin-top: .21rem;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: .36rem;
+    height: .36rem;
+    margin-left: .12rem;
+
+}
+.text{
+    width: 3.4rem;
+    height:.3rem;
+    margin-top: .05rem;
+    margin-left: .1rem;
+    line-height: .3rem;
+    background:#f65050;
+    color: #ffffff;
+}
+.search2{
+    color: #ffffff;
+    font-size: .32rem;
+    font-weight: bold;
+    position: absolute;
+    right:.24rem;
+    top:.2rem;
+}
+
+
+/*轮播图*/
+.focus{
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    max-width: 1080px;
+    height: 4rem;
+    overflow: hidden;
+}
+.focus .hd{
+    position: absolute;
+    bottom: .35rem;
+    text-align: center;
+    width: 100%;
+    height: 15px;
+    z-index: 1;
+}
+.focus .hd ul{
+    display: inline-block;
+    padding: 3px 5px;
+    vertical-align: top;
+    height: 8px;
+    font-size: 0;
+    position:absolute;
+    right: 0;
+    margin-top: .1rem;
+}
+.focus .hd ul li{
+    display: inline-block;
+    width: .2rem;
+    height: .2rem;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #d4cece;
+    margin: 0 5px;
+    vertical-align: top;
+    overflow: hidden;
+}
+.focus .hd ul .on{
+    background: #ffffff;
+}
+.focus .bd{
+    position: relative;
+    z-index: 0;
+    overflow: hidden;
+}
+.focus .bd li img{
+    width: 100%;
+    max-width: 1080px;
+    height: 3.38rem;
+    vertical-align:top;
+}
+.focus .bd li a{
+    -webkit-tap-highlight-color:rgba(0, 0, 0, 0); /* 取消链接高亮 */
+}
+/*定制模块*/
+.customized{
+    width: 100%;
+    height: 2.7rem;
+    border-bottom: .05rem solid #dfdfdf;
+    display: flex;
+    flex-direction: row;
+}
+.customized div{
+    width: 25%;
+    height:2.7rem;
+    display: flex;
+    flex-direction: column;
+}
+.customized div ul li{
+    width: 100%;
+    text-align: center;
+    font-size: .32rem;
+    font-weight: bold;
+    color: #939393;
+}
+.customized div ul li img{
+    margin: .35rem 0 .3rem 0;
+}
+.fire{
+    width: 1.4rem;
+    height: 1.4rem;
+}
+.help{
+    width: .75rem;
+    height: 1.34rem;
+    margin: .3rem 0 0 .55rem;
+}
+
+/*底部*/
+.footer{
+    width: 100%;
+    height: .96rem;
+    position: fixed;
+    bottom: 0;
+    display: -moz-box;
+    display: -webkit-box;
+    display: box;
+    background: #f6f6f6;
+    border-top: 1px solid #afafaf;
+}
+.footer a{
+	display: flex;
+	flex-direction: column;
+}
+.footer div{
+    flex: 1;
+    -moz-box-flex: 1;
+    -webkit-box-flex: 1;
+    box-flex: 1;
+    font-size: .2rem;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #8e8e93;
+
+}
+.footer span{
+    padding-top: .06rem;
+}
+.car{
+    width: .57rem;
+    height: .52rem;
+    padding-left: 1rem;
+    padding-top: .08rem;
+}
+.person{
+    width: .46rem;
+    height: .54rem;
+    padding-left: 1rem;
+    padding-top: .08rem;
+
+}
+.index{
+    width: .6rem;
+    height: .54rem;
+    padding-left: 1rem;
+    padding-top: .08rem;
+}
+#color{
+    color: #f65050;
+}
+.cust{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top:.9rem;
+    z-index: 100;
+    bottom:.96rem ;
+}
+
+/*定制酒模块*/
+.customized2{
+    width: 100%;
+    height:auto;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    display: flex;
+    flex-direction: row;
+}
+.customized2 a{
+    display: flex;
+    flex-direction: column;
+}
+.culture{
+    width: 2.76rem;
+    height: 3.6rem;
+    background: #e79c9c;
+    border-radius:.2rem;
+}
+
+.culture2{
+    width: 1.8rem;
+    height: 1.78rem;
+    background: #f4a6e3;
+    border-radius:.2rem;
+    margin-left: .1rem;
+}
+
+.culture3{
+    width: 2.76rem;
+    height: 1.78rem;
+    background: #8789f0;
+    border-radius:.2rem;
+    margin-left: .15rem;
+}
+.culture4{
+    width: 2.77rem;
+    height: 1.98rem;
+    background: #f6d59e;
+    border-radius:.2rem;
+    margin-top: .1rem;
+}
+
+.culture5{
+    width: 1.82rem;
+    height: 1.7rem;
+    background: #87eb8e;
+    margin-left: .1rem;
+    border-radius:.2rem;
+    margin-top: .1rem;
+}
+.baijiaxing{
+    width: 1.08rem;
+    height: 1.28rem;
+    margin-top: .21rem;
+    margin-left: .85rem;
+}
+.all{
+    width: 4.64rem;
+    height: 3.7rem;
+}
+.back{
+    width: 4.64rem;
+    height: 1.78rem;
+    display: flex;
+    flex-direction: row;
+}
+.back2 {
+    width: 4.64rem;
+    height: 1.8rem;
+    display: flex;
+    flex-direction: row;
+    margin-left: .1rem;
+}
+.jiu{
+    width: 1.18rem;
+    height: 1.96rem;
+    margin: .8rem 0 0 .8rem;
+}
+.mingjiu{
+    width: 1.52rem;
+    height: 1.32rem;
+    margin: .24rem 0 0 .18rem;
+}
+.jiujia{
+    width: 1.42rem;
+    height: 1.32rem;
+    margin:.17rem 0 0 .62rem;
+}
+.private{
+    width:1.58rem;
+    height: 1.44rem;
+    margin: .3rem 0 0 .2rem;
+}

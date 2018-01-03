@@ -1,0 +1,313 @@
+/*头部*/
+html{
+    width:100%;
+    height:100%;
+    position: relative;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+}
+
+.header{
+    width: 100%;
+    height:.9rem;
+    background:#f65050;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+}
+
+.logo{
+    width: 1.18rem;
+    height: .5rem;
+    margin: .2rem .24rem ;
+}
+.input{
+    width: 4.72rem;
+    height: .4rem;
+    border:.04rem solid #ffffff;
+    border-radius:.2rem;
+    margin-top: .21rem;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: .36rem;
+    height: .36rem;
+    margin-left: .12rem;
+
+}
+.text{
+    width: 3.4rem;
+    height:.3rem;
+    margin-top: .05rem;
+    margin-left: .1rem;
+    line-height: .3rem;
+    background:#f65050;
+    color: #ffffff;
+}
+.search2{
+    color: #ffffff;
+    font-size: .32rem;
+    font-weight: bold;
+    position: absolute;
+    right:.24rem;
+    top:.25rem;
+}
+
+/*中间自适应*/
+.cust{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top:.9rem;
+    z-index: 100;
+    bottom:2rem ;
+}
+.box2{
+    width: 100%;
+    height: 7.5rem;
+    border-bottom:.05rem solid #dfdfdf;
+    position: relative;
+}
+.lunbo{
+    width: 7.48rem;
+    height: 5.53rem;
+    margin-top: .5rem;
+    position: absolute;
+    left: 50%;
+    margin-left: -3.74rem;
+    top:0;
+}
+.cicle3{
+    width: 1.9rem;
+    height:.3rem;
+    position: absolute;
+    left: 50%;
+    margin-left:-.95rem;
+    top:6.5rem;
+    display: flex;
+    flex-direction: row;
+}
+.cicle3 div{
+    width: .3rem;
+    height: .3rem;
+    border-radius:.15rem;
+    background:#dfdfdf;
+    margin-right:.16rem;
+    font-size: .22rem;
+    color:#8e8e8e;
+    font-weight: bold;
+    text-align: center;
+    line-height: .3rem;
+}
+
+/*定制详情*/
+.jifen{
+    width: 100%;
+    height: .78rem;
+    line-height: .78rem;
+    position: absolute;
+    top: 6.8rem;
+}
+.jifen-1{
+    font-size:.14rem;
+    color:#838383;
+    font-weight: bold;
+    float: left;
+    padding-left: .2rem;
+    overflow-x: hidden;
+    margin-top: -.05rem;
+    overflow-x: hidden;
+}
+.jifen-1 b{
+    font-size:.3rem;
+    color:#ff4707;
+}
+.jifen-1 em{
+    color: #122940;
+}
+.jifen-1 span{
+    font-size:.3rem;
+    color:#ff4707;
+    margin-right: .05rem;
+}
+.jifen-2{
+    font-size:.14rem;
+    color:#838383;
+    font-weight: bold;
+    float: right;
+    padding-right: .2rem;
+    overflow-x: hidden;
+}
+.jifen-2 b{
+    color: #122940;
+}
+/*选择*/
+.number{
+    width: 100%;
+    height: .98rem;
+    line-height: .98rem;
+    border-bottom: .05rem solid #dfdfdf;
+}
+.text2{
+    font-size: .34rem;
+    font-weight: bold;
+    color: #122940;
+    margin-left: .24rem;
+    float: left;
+}
+.text3{
+    font-size: .3rem;
+    font-weight: bold;
+    color: #a6a6a6;
+    float: right;
+    margin-right: .24rem;
+    width: 1.4rem;
+    height: .98rem;
+}
+.add{
+    width: .38rem;
+    height: .38rem;
+    margin-top: .3rem;
+
+}
+.text3 span{
+    width: 1rem;
+    height: .98rem;
+    display: inline-block;
+    float: left;
+}
+.text3 em{
+    width: .4rem;
+    height: .98rem;
+    float: right;
+}
+/*展开选择*/
+.choose2{
+    width: 100%;
+    height:1.4rem;
+    border-bottom: .05rem solid #dfdfdf;
+    display: none;
+}
+.top{
+    width: 100%;
+    height:.98rem;
+    line-height: .98rem;
+}
+.cut{
+    float: right;
+}
+.top em{
+    float: right;
+    margin-right: .24rem;
+}
+.layout3{
+    width: 80%;
+    height: 1.4rem;
+    margin: 0 auto;
+}
+.layout3 button{
+    float: left;
+    width: 1.7rem;
+    height:.42rem;
+    border: 1px solid #838383;
+    line-height:.42rem;
+    text-align: center;
+    font-size: .24rem;
+    color: #122940;
+    font-weight: bold;
+    border-radius:.21rem;
+    margin-right: .25rem;
+    background: #ffffff;
+    margin-top: .2rem;
+
+}
+
+button{
+    -webkit-appearence:none;
+    border: none;
+    outline: none;
+}
+.box3{
+    box-shadow: 0 .06rem .06rem #b6a0a0;
+}
+/*底部*/
+.foot{
+    width: 100%;
+    height: 1.9rem;
+    box-shadow: 0 -.08rem .2rem #b6a0a0;
+    border-radius:.2rem .2rem 0 0 ;
+    position: fixed;
+    bottom: 0;
+    background: #ffffff;
+    z-index: 1000;
+}
+.price{
+    width: 100%;
+    height: .97rem;
+    line-height: .97rem;
+    font-size: .34rem;
+    font-weight: bold;
+    color: #122940;
+    margin-left: .24rem;
+    overflow-x: hidden;
+    position: relative;
+}
+.price b{
+    color: #f65050;
+}
+.all{
+    float: left;
+    overflow-x: hidden;
+}
+.get{
+    width: 100%;
+    height: .93rem;
+    position: absolute;
+    bottom: 0;
+    line-height: .93rem;
+    font-size: .34rem;
+    font-weight:bold;
+    color: #ffffff;
+}
+.number2{
+    width:3.1rem;
+    height: .6rem;
+    position: absolute;
+    right: .6rem;
+    top:.18rem;
+    display: flex;
+    flex-direction: row;
+}
+.text4{
+    width: 1.4rem;
+    height: .56rem;
+    border: 1px solid #122940;
+    text-align: center;
+    line-height: .56rem;
+    margin: 0 .22rem 0 .22rem;
+}
+.add2{
+    width: .62rem;
+    height: .62rem;
+}
+.left{
+    width: 50%;
+    height: .93rem;
+    text-align: center;
+    background: #f6a250;
+    float: left;
+}
+.right{
+    width: 50%;
+    height: .93rem;
+    text-align: center;
+    background: #f65050;
+    float: left;
+}

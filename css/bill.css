@@ -1,0 +1,361 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.section .box1 {
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .xiang {
+  display: none;
+}
+.section .integral {
+  width: 100%;
+  height: 1.25rem;
+  background: #ff7676;
+  border-bottom: 1px solid #ff7676;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .integral2,
+.section .integral1 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  font-size: .6rem;
+  background: #fff;
+  color: #ff7676;
+  line-height: 1.25rem;
+}
+.section .active {
+  background: #ff7676;
+  color: #fff;
+}
+.section .billList {
+  width: 100%;
+  height: 1.1rem;
+  background: 0;
+}
+.section .billList span {
+  float: left;
+  width: 1.4rem;
+  height: 0.55rem;
+  background: 0;
+  border: 1px solid #ff7676;
+  margin-left: .2rem;
+  margin-top: .4rem;
+  margin-right: .2rem;
+  text-align: center;
+  line-height: .55rem;
+  border-radius: 5px;
+  font-size: .25rem;
+  color: #ff7676;
+}
+.section .billList .active2 {
+  background: #ff7676;
+  color: #fff;
+}
+.section .billList span:first-child {
+  margin-left: .3rem;
+}
+.section .main {
+  padding: 0 .2rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border-bottom: 8px solid #dfdfdf;
+  padding-bottom: .4rem;
+  box-sizing: border-box;
+}
+.section .main p {
+  font-size: .35rem;
+  margin-top: .2rem;
+}
+.section .main:last-child {
+  border: none;
+}
+.section .pay {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay p {
+  font-size: .25rem;
+  color: #a0a0a0;
+}
+.section .pay h2 {
+  text-align: center;
+  font-size: .5rem;
+}
+.section .pay h3 {
+  font-size: .25rem;
+  line-height: .5rem;
+  margin-bottom: .5rem;
+}
+.section .pay h3 span {
+  background: #38ad53;
+  color: #fff;
+  padding: .06rem .18rem;
+  border-radius: 10px;
+  margin-right: .2rem;
+}
+.section .pay .wan {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay .zhi {
+  position: absolute;
+  width: 0.28rem;
+  height: auto;
+  background: 0;
+  top: 2.5rem;
+  right: .3rem;
+}
+.section .pay .xiang {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  border-top: 1px solid  #dfdfdf;
+}
+.section .pay .xiang h4 {
+  font-size: .25rem;
+  line-height: .5rem;
+  float: left;
+}
+.section .pay .xiang h5 {
+  float: right;
+  font-size: .25rem;
+  line-height: .5rem;
+  color: #a0a0a0;
+}
+.section .pay2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay2 p {
+  font-size: .25rem;
+  color: #a0a0a0;
+}
+.section .pay2 h2 {
+  text-align: center;
+  font-size: .5rem;
+}
+.section .pay2 h3 {
+  font-size: .25rem;
+  line-height: .5rem;
+  margin-bottom: .5rem;
+}
+.section .pay2 h3 span {
+  background: #ff7327;
+  color: #fff;
+  padding: .06rem .18rem;
+  border-radius: 10px;
+  margin-right: .2rem;
+}
+.section .pay2 .wan {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay2 .zhi {
+  position: absolute;
+  width: 0.28rem;
+  height: auto;
+  background: 0;
+  top: 2.5rem;
+  right: .3rem;
+}
+.section .pay2 .xiang {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  border-top: 1px solid  #dfdfdf;
+}
+.section .pay2 .xiang h4 {
+  font-size: .25rem;
+  line-height: .5rem;
+  float: left;
+}
+.section .pay2 .xiang h5 {
+  float: right;
+  font-size: .25rem;
+  line-height: .5rem;
+  color: #a0a0a0;
+}
+.section .pay3 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay3 p {
+  font-size: .25rem;
+  color: #a0a0a0;
+}
+.section .pay3 h2 {
+  text-align: center;
+  font-size: .5rem;
+}
+.section .pay3 h3 {
+  font-size: .25rem;
+  line-height: .5rem;
+  margin-bottom: .5rem;
+}
+.section .pay3 h3 span {
+  background: #ff0f0f;
+  color: #fff;
+  padding: .06rem .18rem;
+  border-radius: 10px;
+  margin-right: .2rem;
+}
+.section .pay3 .wan {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay3 .zhi {
+  position: absolute;
+  width: 0.28rem;
+  height: auto;
+  background: 0;
+  top: 2.5rem;
+  right: .3rem;
+}
+.section .pay3 .xiang {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  border-top: 1px solid  #dfdfdf;
+}
+.section .pay3 .xiang h4 {
+  font-size: .25rem;
+  line-height: .5rem;
+  float: left;
+  width: 100%;
+}
+.section .pay3 .xiang h5 {
+  float: right;
+  font-size: .25rem;
+  line-height: .5rem;
+  color: #a0a0a0;
+}
+.section .pay4 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: 0;
+  box-shadow: 0 0 .5rem #c0c0c0;
+  padding: .2rem;
+  margin-top: .35rem;
+  box-sizing: border-box;
+}
+.section .pay4 p {
+  font-size: .25rem;
+  color: #a0a0a0;
+}
+.section .pay4 h2 {
+  text-align: center;
+  font-size: .5rem;
+}
+.section .pay4 h3 {
+  font-size: .25rem;
+  line-height: .5rem;
+  margin-bottom: .5rem;
+}
+.section .pay4 h3 span {
+  background: #ff0f0f;
+  color: #fff;
+  padding: .06rem .18rem;
+  border-radius: 10px;
+  margin-right: .2rem;
+}
+.section .pay4 .again {
+  display: block;
+  position: absolute;
+  color: #fff;
+  border-radius: 5px;
+  top: 1.3rem;
+  right: .3rem;
+  width: 1.6rem;
+  height: 0.7rem;
+  background: #f65050;
+  text-align: center;
+  line-height: .7rem;
+}
+.section .pay4 .wan {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 1.1rem;
+  height: auto;
+  background: 0;
+}
+.section .pay4 .zhi {
+  position: absolute;
+  width: 0.28rem;
+  height: auto;
+  background: 0;
+  top: 2.5rem;
+  right: .3rem;
+}
+.section .pay4 .xiang {
+  padding-top: .2rem;
+  box-sizing: border-box;
+  border-top: 1px solid  #dfdfdf;
+}
+.section .pay4 .xiang h4 {
+  font-size: .25rem;
+  line-height: .5rem;
+  float: left;
+  width: 100%;
+}
+.section .pay4 .xiang h5 {
+  float: right;
+  font-size: .25rem;
+  line-height: .5rem;
+  color: #a0a0a0;
+}
+.section .box2 h3 {
+  margin-left: .4rem;
+}
+.section .box2 h4 {
+  float: right;
+  font-size: .25rem;
+  color: #a0a0a0;
+}
+.section .no h2 {
+  text-decoration: line-through;
+}

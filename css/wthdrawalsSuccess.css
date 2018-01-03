@@ -1,0 +1,112 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+.section .success {
+  position: relative;
+  width: 100%;
+  height: 6.8rem;
+  background: #ff9191;
+}
+.section .success p {
+  text-align: center;
+  padding-top: .8rem;
+  box-sizing: border-box;
+}
+.section .success p img {
+  width: 3.85rem;
+  height: auto;
+  background: 0;
+}
+.section .success h2 {
+  position: absolute;
+  left: 2rem;
+  top: 4.5rem;
+  z-index: 20;
+  text-align: center;
+  font-size: .8rem;
+  color: #fff;
+  padding-top: .3rem;
+  box-sizing: border-box;
+}
+.section .success .bao {
+  width: 3.25rem;
+  height: auto;
+  background: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.section .myAccount {
+  width: 100%;
+  height: 1.85rem;
+  background: 0;
+  padding: .2rem;
+  box-sizing: border-box;
+  border-bottom: 1px solid #dfdfdf;
+}
+.section .myAccount dl {
+  font-size: .25rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .myAccount dl dt {
+  padding-right: .5rem;
+  box-sizing: border-box;
+  text-align: center;
+}
+.section .myAccount dl dt img {
+  width: 1.35rem;
+  height: auto;
+  background: 0;
+}
+.section .myAccount dl dd p {
+  padding-top: .13rem;
+  box-sizing: border-box;
+}
+.section .myAccount dl dd p img {
+  width: 0.33rem;
+  height: auto;
+  background: 0;
+}
+.section .myAccount dl dd h2 {
+  padding-top: .25rem;
+  box-sizing: border-box;
+}
+.section .money {
+  width: 100%;
+  height: 0.95rem;
+  background: 0;
+  padding: .2rem ;
+  border-bottom: 1px solid #dfdfdf;
+  box-sizing: border-box;
+  line-height: .55rem;
+  font-size: .3rem;
+}
+.section .money p {
+  font-size: .3rem;
+  color: #606060;
+}
+.section .money h2 span {
+  float: right;
+}
+footer {
+  width: 100%;
+  height: 1.5rem;
+  background: #f65050;
+  text-align: center;
+  line-height: 1.5rem;
+  font-size: .9rem;
+  color: #fff;
+}

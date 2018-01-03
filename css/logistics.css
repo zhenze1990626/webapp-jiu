@@ -1,0 +1,89 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  overflow: auto;
+  -webkit-box-flex: 1;
+}
+.section dl {
+  padding: .2rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  position: relative;
+}
+.section dl dt {
+  margin-right: .3rem;
+}
+.section dl dt img {
+  width: 2.4rem;
+  height: auto;
+  background: 0;
+}
+.section dl dd {
+  font-size: .3rem;
+}
+.section dl dd h2 {
+  color: #969696;
+}
+.section dl dd h3 {
+  position: absolute;
+  line-height: .5rem;
+  text-align: center;
+  top: 1.33rem;
+  left: .223rem;
+  width: 2.38rem;
+  height: 0.5rem;
+  background: #000000;
+  color: #fff;
+  z-index: 5;
+  filter: alpha(opacity=50);
+  /*支持 IE 浏览器*/
+  -moz-opacity: 0.5;
+  /*支持 FireFox 浏览器*/
+  -khtml-opacity: 0.5;
+  /*webkit内核浏览器*/
+  opacity: 0.5;
+  /*支持 Chrome, Opera, Safari 等浏览器*/
+}
+.section dl dd p span {
+  color: #f65050;
+}
+.section h4 {
+  margin: .2rem 0;
+  line-height: .85rem;
+  border: 1px solid #ccc;
+  padding: .2rem;
+  box-sizing: border-box;
+  border-left: none;
+  border-right: none;
+  font-size: .3rem;
+}
+.section h4 span {
+  float: right;
+}
+.section h4 span img {
+  width: 0.15rem;
+  height: auto;
+  background: 0;
+}
+.section h4 b {
+  color: #f65050;
+}
+.section h5 {
+  padding: .2rem;
+  box-sizing: border-box;
+  font-size: .3rem;
+}
+.section h5 p {
+  line-height: .6rem;
+  color: #989898;
+}

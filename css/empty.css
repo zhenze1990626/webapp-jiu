@@ -1,0 +1,183 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+header {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+  color: #fff;
+  font-size: .28rem;
+  width: 100%;
+  height: 0.8rem;
+  background: #f65050;
+}
+header .left {
+  width: 1.5rem;
+  height: 0.8rem;
+  background: 0;
+  text-align: center;
+  line-height: .8rem;
+}
+header .left .car {
+  width: 0.45rem;
+  height: 0.45rem;
+  background: 0;
+}
+header .left .car2 {
+  width: 0.7rem;
+  height: 0.45rem;
+  background: 0;
+}
+header .right {
+  width: 1rem;
+  height: 0.8rem;
+  background: 0;
+  text-align: center;
+  line-height: .8rem;
+}
+header .center {
+  -webkit-box-flex: 1;
+  text-align: center;
+  line-height: .8rem;
+}
+footer {
+  width: 100%;
+  height: 1.1rem;
+  background: 0;
+  border-top: 1px solid #afafaf;
+  padding-top: .1rem;
+  box-sizing: border-box;
+  font-size: .2rem;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+footer dl {
+  -webkit-box-flex: 1;
+  text-align: center;
+}
+footer dl dt img {
+  width: 0.5rem;
+  height: 0.5rem;
+  background: 0;
+}
+footer .active {
+  color: #f65050;
+}
+.section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.section .car {
+  width: 7.5rem;
+  height: 7.5rem;
+  background: 0;
+}
+.section .car dl {
+  text-align: center;
+  margin-top: 1rem;
+}
+.section .car dl dt img {
+  width: 4.5rem;
+  height: auto;
+  background: 0;
+}
+.section .car dl dd {
+  margin-top: .5rem;
+}
+.section .car dl dd p {
+  font-size: .3rem;
+  line-height: .5rem;
+}
+.section .car dl dd h2 {
+  font-size: .18rem;
+}
+.section .love {
+  margin-bottom: .5rem;
+  width: 100%;
+  height: auto;
+  background: 0;
+}
+.section .love p {
+  font-size: .3rem;
+  color: #7c7c7c;
+  margin-bottom: .5rem;
+  padding-left: .2rem;
+  box-sizing: border-box;
+}
+.section .love .tui {
+  width: 90%;
+  height: auto;
+  background: 0;
+  border: 1px solid #ccc;
+  border-radius: 30px;
+  position: relative;
+}
+.section .love .tui .tuit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 0.7rem;
+  height: auto;
+  background: 0;
+}
+.section .love .tui dl {
+  padding: .3rem 0;
+  padding-left: 1rem;
+  box-sizing: border-box;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .love .tui dl dt {
+  margin-right: .2rem;
+}
+.section .love .tui dl dt img {
+  width: 1.7rem;
+  height: auto;
+  background: 0;
+}
+.section .love .tui dd {
+  margin-top: .1rem;
+}
+.section .love .tui dd p {
+  font-size: .3rem;
+  padding: 0;
+  margin: 0;
+  color: #000;
+}
+.section .love .tui dd h2 {
+  line-height: .8rem;
+  color: #3cbf3c;
+  font-size: .18rem;
+}
+.section .love .tui dd h2 span {
+  color: #f65050;
+  margin-right: .1rem;
+}
+.section .love .tui dd h2 b {
+  color: #ffbb2c;
+  margin-right: .1rem;
+}
+.section .love .tui dd h2 i {
+  color: #000;
+  margin-right: .1rem;
+}
+.section .love .tui dd h3 {
+  font-size: .18rem;
+}
+.section .love .tui dd h3 b {
+  font-size: .28rem;
+  color: #ff4707;
+}
+.section .love .tui dd h3 span {
+  background: #ff4707;
+  padding: .12rem .2rem;
+  border-radius: 25px;
+  color: #fff;
+}

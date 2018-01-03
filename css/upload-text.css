@@ -1,0 +1,434 @@
+/*头部*/
+html{
+    width:100%;
+    height:100%;
+}
+body{
+    margin:0;
+    padding: 0;
+    height:100%;
+    background: #ffffff;
+    position: relative;
+}
+
+.header{
+    width: 100%;
+    height:.9rem;
+    background:#f65050;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top:0;
+}
+
+.logo{
+    width: 1.18rem;
+    height: .5rem;
+    margin: .2rem .24rem ;
+}
+.input{
+    width: 4.72rem;
+    height: .4rem;
+    border:.04rem solid #ffffff;
+    border-radius:.2rem;
+    margin-top: .21rem;
+    display: flex;
+    flex-direction: row;
+}
+.search{
+    width: .36rem;
+    height: .36rem;
+    margin-left: .12rem;
+
+}
+.text{
+    width: 3.4rem;
+    height:.3rem;
+    margin-top: .05rem;
+    margin-left: .1rem;
+    line-height: .3rem;
+    background:#f65050;
+    color: #ffffff;
+}
+.search2{
+    color: #ffffff;
+    font-size: .32rem;
+    font-weight: bold;
+    position: absolute;
+    right:.24rem;
+    top:.25rem;
+}
+
+/*中间自适应*/
+.cust{
+    width: 100%;
+    overflow-y: auto;
+    overflow-x: hidden;
+    position: absolute;
+    top:.9rem;
+    z-index: 100;
+    bottom:1.4rem ;
+}
+.background{
+    width: 7rem;
+    height: 9.1rem;
+    background: #dfdfdf;
+    margin:.25rem auto 0 auto;
+    position: relative;
+}
+.jiuping{
+    width: 3.06rem;
+    height: 8.06rem;
+    position: absolute;
+    left: 50%;
+    top:.34rem;
+    margin-left: -1.53rem;
+
+}
+.delete{
+    width: 1.34rem;
+    height: .55rem;
+    background: #f65050;
+    text-align: center;
+    line-height: .55rem;
+    color: #ffffff;
+    font-size: .3rem;
+    font-weight: bold;
+    position: absolute;
+    right: .2rem;
+    top: .2rem;
+    border-radius:.1rem;
+}
+
+#targetObj2{
+    height:1.6rem;
+    width:1.8rem;
+    /*border-top:1.9rem solid #ffffff;
+    border-left: .2rem solid transparent;
+    border-right:.2rem solid transparent;*/
+    border:1px solid red;
+    position: relative;
+    margin-left: 2.6rem;
+    z-index: 10000;
+    overflow: hidden;
+    top:4.6rem;
+    
+
+}
+
+
+.help{
+    width: 7rem;
+    height: .7rem;
+    margin:.5rem auto .3rem auto;
+    display:flex;
+    flex-direction:row;
+}
+.help-text{
+    width: 2.7rem;
+    height: .66rem;
+    border: 1px solid #f67b50;
+    text-align: center;
+    line-height: .66rem;
+    font-size: .34rem;
+    color: #f67b50;
+    font-weight: bold;
+    position: relative;
+    border-radius:.2rem;
+}
+.why{
+    width: .2rem;
+    height: .2rem;
+    position: absolute;
+    right: .77rem;
+    top:.1rem;
+}
+.getinto{
+    width: .98rem;
+    height: .52rem;
+    margin-left: .3rem;
+    margin-right: .12rem;
+}
+.help-upload{
+    width: 2.7rem;
+    height: .68rem;
+    background: #f65050;
+    line-height: .68rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .34rem;
+    border-radius:.2rem;
+    position: absolute;
+    right:.24rem;
+    z-index: 10000;
+}
+#upload{
+    width: 2.7rem;
+    height: .68rem;
+    background: #f65050;
+    line-height: .68rem;
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .34rem;
+    border-radius:.2rem;
+    opacity: 0;
+    position: absolute;
+    top:0;
+    right:0;
+    z-index: 100;
+}
+.upload{
+	width: 1.9rem;
+	height: 1.6rem;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left: -.95rem;
+    margin-top:0;
+    z-index:20000;
+}
+.hehe{
+	width: 1.8rem;
+	height: 1.6rem;
+    position: absolute;
+    left: 50%;
+    top:0;
+    margin-left:0;
+    margin-top:0;
+    z-index:2000;
+    background: #FFFFFF;
+}
+
+/*底部*/
+.foot{
+    width: 100%;
+    height: 1.34rem;
+    position: fixed;
+    bottom: 0;
+    background: red;
+    font-weight: bold;
+    font-size: .66rem;
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0 -.08rem .2rem #b6a0a0;
+    margin-top: .3rem;
+    z-index: 1000;
+}
+.left{
+    width: 50%;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    font-size: .66rem;
+    color: #ffffff;
+    text-align: center;
+    background: #c8c8c8;
+}
+.right{
+    width: 50%;
+    height: 1.34rem;
+    line-height: 1.34rem;
+    font-size: .66rem;
+    color: #ffffff;
+    text-align: center;
+    background: #f65050;
+}
+
+/*遮罩层*/
+.black{
+    width: 100%;
+    height: 100%;
+    position:fixed;
+    top:0;
+    background: #666666;
+    z-index: 5000;
+    display: none;
+    filter:alpha(opacity=70);  /*支持 IE 浏览器*/
+    -moz-opacity:0.7; /*支持 FireFox 浏览器*/
+    -khtml-opacity: 0.7; /*webkit内核浏览器*/
+    opacity:0.7;  /*支持 Chrome, Opera, Safari 等浏览器*/
+
+}
+.alert{
+	width: 6rem;
+	height:auto;
+	background: #ffffff;
+	position: absolute;
+	left: 50%;
+	top:50%;
+	margin-left: -3rem;
+	margin-top: -5.5rem;
+	z-index:100000;
+	display: none;
+	border-radius:.2rem;
+}
+.alert-header{
+	width:5.7rem;
+	height: .77rem;
+	background: #f65050;
+	border-radius:.2rem .2rem 0 0;
+	font-size: .34rem;
+	font-weight: bold;
+	color: #ffffff;
+	line-height: .77rem;
+	padding-left: .3rem;
+}
+.content {
+    width: 5.6rem;
+    height: auto;
+    background: #ececec;
+    margin: .2rem auto .2rem auto;
+    border-radius: .1rem;
+}
+.up{
+	font-size: .3rem;
+	color: #000000;
+	font-weight: bold;
+	margin: .2rem auto .16rem auto;
+	width: 100%;
+	height:.3rem;	
+	display: block;
+	padding-top: .2rem;
+	padding-left: .1rem;
+	
+}
+p{
+	font-size: .3rem;
+	font-weight: bold;
+	color:#6b6b6b;
+	text-indent: .86rem;
+	padding-bottom: .2rem;
+	width: 90%;
+	margin: 0 auto;
+}
+.confirm{
+    width: 2.7rem;
+    height: .78rem;
+    background: #f65050;
+    line-height: .78rem;
+    color: #ffffff;
+    font-size: .48rem;
+    font-weight: bold;
+    border-radius:.1rem;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: .4rem;
+    margin-bottom: .4rem;
+
+}
+
+
+.list2{
+	width: 6.6rem;
+	height: .52rem;
+	margin:.2rem auto .3rem auto;
+}
+
+.list2 ul li{
+	font-size: .28rem;
+	font-weight: bold;
+	text-align: center;
+	line-height: .52rem;
+	height: .52rem;
+	width: auto;
+	border-radius:.1rem;
+	float: left;
+	padding: 0 .1rem 0 .1rem;
+	margin-right: .2rem;
+}
+.border{
+	border: 1px solid #000000;
+}
+
+.hehe em{
+	width: 100%;
+	height: .68rem;
+    background: transparent;
+	display: block;
+	overflow: hidden;
+	position: absolute;
+	z-index: 3000000;
+    top:0;
+    margin-left:0;
+}
+.fontsize{
+	width: 7rem;
+	height: .76rem;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: row;
+}
+.text-font{
+	width: 5.38rem;
+	height: .76rem;
+	line-height: .76rem;
+	background:#dfdfdf;
+	margin-bottom: .35rem;
+	padding-left: .1rem;	
+	}
+.add3{
+	width: 1.2rem;
+	height: .76rem;
+	text-align: center;
+	line-height: .76rem;
+	color: #ffffff;
+	font-size: .38rem;
+	font-weight: bold;
+	background: #f65050;
+	margin-left: .26rem;
+	border-radius:.1rem;
+}		
+.active{
+	color:#ffffff;
+	background:#f65050;
+	box-shadow: .02rem -.02rem .1rem #b6a0a0;
+	height: .76rem;
+	border: none;
+}
+
+
+
+/*字体格式*/
+
+/*创意繁体*/
+@font-face{font-family:'ZoomlaXingtiJ';
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/ZoomlaXingtiJ.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/ZoomlaXingtiJ.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url('https://code.z01.com/font/ZoomlaXingtiJ.svg#ZoomlaXingtiJ') format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}
+/*简体草书*/
+@font-face{font-family:'ZoomlaXingtiJ2';
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ2.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ2.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/ZoomlaXingtiJ2.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/ZoomlaXingtiJ2.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url('https://code.z01.com/font/ZoomlaXingtiJ2.svg#ZoomlaXingtiJ2') format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}    
+/*流行体*/
+@font-face{font-family:'zFont2';
+    src: url('https://code.z01.com/font/zFont2.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/zFont2.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/zFont2.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/zFont2.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url('https://code.z01.com/font/zFont2.svg#zFont2') format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}    
+/*黑粗体*/    
+@font-face{font-family:'zFont1';
+    src: url('https://code.z01.com/font/zFont1.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/zFont1.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/zFont1.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/zFont1.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url('https://code.z01.com/font/zFont1.svg#zFont1') format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}
+    
+/*楷体*/
+@font-face{font-family:'ZoomlaXingtiJ3';
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ3.eot?#iefix'); /* IE9 */
+    src: url('https://code.z01.com/font/ZoomlaXingtiJ3.eot?#iefix') format("embedded-opentype"), /* IE6-IE8 */
+    url('https://code.z01.com/font/ZoomlaXingtiJ3.woff') format("woff"), /* chrome、firefox */
+    url('https://code.z01.com/font/ZoomlaXingtiJ3.ttf') format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+ */
+    url("http://code.z01.com/font/ZoomlaXingtiJ3.svg#ZoomlaXingtiJ3") format("svg"); /* iOS 4.1- */
+    font-style: normal; font-weight: normal;}

@@ -1,0 +1,108 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  padding: 0 .2rem;
+  box-sizing: border-box;
+  -webkit-box-flex: 1;
+  overflow: auto;
+}
+.section .title {
+  width: 100%;
+  height: 1.8rem;
+  background: 0;
+}
+.section .title h2 {
+  margin-right: .2rem;
+  line-height: .5rem;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.section .title p {
+  margin-top: .24rem;
+  font-size: .22rem;
+  color: #939393;
+}
+.section .title p span {
+  float: right;
+}
+.section .yy {
+  width: 100%;
+  height: 10px;
+  background: 0;
+  box-shadow: 0px 10px 10px #e5e5e5;
+}
+.section .video {
+  margin-top: 1rem;
+}
+.section .introduce p {
+  text-indent: .7rem;
+  margin-top: .4rem;
+  line-height: .4rem;
+  font-size: .26rem;
+}
+.section .introduce h2 {
+  text-align: right;
+  margin-top: .2rem;
+  font-size: .26rem;
+  color: #838383;
+  margin-bottom: .3rem;
+}
+.section .introduce b {
+  text-align: right;
+  margin-top: .3rem;
+  font-size: .26rem;
+  color: #838383;
+}
+.introduce{
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #dfdfdf;
+}
+.cicle{
+  width:7.06rem;
+  height: 7.06rem;
+  margin-top: .3rem;
+
+}
+/*分页*/
+.page {
+  width: 100%;
+  height: 0.7rem;
+  background: 0;
+  border: 1px solid #c9c3c3;
+  margin-top: .3rem;
+  margin-bottom: .3rem;
+  border-radius: 15px;
+}
+.page ul {
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.page ul li {
+  color: #c9c3c3;
+  -webkit-box-flex: 1;
+  border-right: 1px solid #c9c3c3;
+  text-align: center;
+  line-height: .7rem;
+}
+.page ul li img {
+  width: 0.65rem;
+  height: 0.45rem;
+  background: 0;
+}
+.page ul .active {
+  background: #f65050;
+  color: #fff;
+}
+.page ul .right {
+  border: none;
+}

@@ -1,0 +1,188 @@
+@import url(reset.css);
+.container {
+  width: 100%;
+  height: 100%;
+  background: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.section {
+  -webkit-box-flex: 1;
+  overflow: auto;
+  /*下拉框*/
+}
+.section .integral {
+  width: 100%;
+  height: 1.8rem;
+  background: #ff7676;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .integral2 {
+  -webkit-box-flex: 1;
+  text-align: center;
+  margin-top: .3rem;
+  color: #fff;
+}
+.section .integral2 p {
+  font-size: .6rem;
+}
+.section .integral2 h2 {
+  font-size: .26rem;
+}
+.section .commission {
+  width: 100%;
+  height: 1.75rem;
+  background: 0;
+  display: -webkit-box;
+  -webkit-box-orient: horizontal;
+}
+.section .commission .commission2 {
+  -webkit-box-flex: 1;
+  border-right: 1px solid #dfdfdf;
+  border-bottom: 1px solid #dfdfdf;
+  text-align: center;
+  padding-top: .5rem;
+  box-sizing: border-box;
+  color: #ff7676;
+  font-size: .25rem;
+}
+.section .commission .commission2:last-child {
+  border-right: none;
+}
+.section .nice-select {
+  width: 2.34rem;
+  height: .73rem;
+  border: 1px solid #dfdfdf;
+  background: #ffffff url(../img/list.png) no-repeat 1.94rem center;
+  background-size: .33rem .33rem;
+  position: relative;
+  margin: .16rem 0 .2rem .32rem;
+  float: left;
+}
+.section .year p {
+  float: right;
+  padding-right: .2rem;
+  padding-top: .4rem;
+  box-sizing: border-box;
+  font-size: .3rem;
+}
+.section .nice-select input {
+  display: block;
+  width: 100%;
+  height: .73rem;
+  line-height: .73rem \9;
+  border: 0;
+  outline: 0;
+  background: none;
+  padding-left: .2rem;
+}
+.section .select-year {
+  font-weight: bold;
+  color: #000000;
+  font-size: .38rem;
+}
+.section .nice-select ul {
+  width: 100%;
+  display: none;
+  position: absolute;
+  left: -1px;
+  top: .74rem;
+  overflow: hidden;
+  background-color: #fff;
+  max-height: 3.2rem;
+  overflow-y: auto;
+  border: 1px solid #dfdfdf;
+  border-top: 0;
+  z-index: 9999;
+}
+.section .nice-select ul li {
+  height: .66rem;
+  line-height: .66rem;
+  overflow: hidden;
+  font-weight: bold;
+  color: #000000;
+  font-size: .38rem;
+  padding-left: .2rem;
+  cursor: pointer;
+}
+.section .nice-select ul li.on {
+  background-color: #e0e0e0;
+}
+.section .month {
+  padding: 0 .25rem;
+  padding-bottom: .1rem;
+  box-sizing: border-box;
+  width: 100%;
+  height: auto;
+  background: 0;
+  border-top: 1px solid #dfdfdf;
+}
+.section .month h2 {
+  line-height: .6rem;
+  font-size: .3rem;
+  color: #7c7c7c;
+  display: none;
+}
+.section .month h2 span {
+  float: right;
+  padding-right: .55rem;
+  box-sizing: border-box;
+}
+.section .month p {
+  padding: .3rem 0;
+  font-size: .3rem;
+  box-sizing: border-box;
+}
+.section .month p span {
+  float: right;
+}
+.section .month p span i {
+  display: block;
+  width: 0.3rem;
+  height: 0.3rem;
+  background: 0;
+  margin-left: .2rem;
+  margin-top: .06rem;
+  border: 1px solid #000;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .3rem;
+  float: right;
+}
+.section .month:last-child {
+  padding-bottom: 1.5rem;
+  box-sizing: border-box;
+}
+footer {
+  width: 100%;
+  height: 1.4rem;
+  background: #ffffff;
+  border-top: 1px solid #949494 ;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+}
+footer p {
+  padding: .15rem .2rem;
+  font-size: .4rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  box-sizing: border-box;
+}
+footer p b {
+  font-weight: bold;
+}
+footer p span {
+  float: right;
+  background: #f65050;
+  padding: 0 .7rem;
+  box-sizing: border-box;
+  font-size: .6rem;
+  font-weight: bold;
+  color: #fff;
+}

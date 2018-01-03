@@ -1,0 +1,126 @@
+body{
+    background: #ffffff;
+}
+.layout {
+    width: 100%;
+    height:100%;
+    display: -webkit-box;
+    display: box;
+    -webkit-box-orient: vertical;
+
+}
+.content2{
+    -webkit-box-flex:1;
+    overflow: auto;
+}
+.cicle{
+    width: 93%;
+    height: 2.55rem;
+    border:1px solid #c9c3c3;
+    margin: 0 auto;
+    border-radius:.34rem;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-top: .3rem;
+}
+.tuijian{
+    width: .74rem;
+    height: .74rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.jiu{
+    width: 1.75rem;
+    height: 2rem;
+    margin: .25rem .37rem 0 .7rem;
+}
+.content{
+    width: 4.2rem;
+    height: 1.62rem;
+    display:flex;
+    flex-direction: column;
+    margin-top: .47rem;
+
+}
+.content div{
+    width: 100%;
+    font-weight: bold;
+}
+.first{
+    color: #000000;
+    font-size: .34rem;
+    margin-bottom: .2rem;
+}
+.second{
+    font-size: .2rem;
+
+}
+.second span{
+    color: #f65050;
+    font-weight: bold;
+    margin-right: .3rem;
+
+}
+.second cite{
+    color: #3cbf3c;
+    font-weight: bold;
+    font-style:normal ;
+
+}
+.second em{
+    color: #ffb607;
+    font-weight: bold;
+    margin-right: .3rem;
+
+}
+.second b{
+    color: #000000;
+    font-weight: bold;
+    margin-right: .3rem;
+
+}
+.third{
+    margin-top: .2rem;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: 1.15rem;
+    align-items: center;
+
+}
+.third span{
+    font-size: .2rem;
+    font-weight: bold;
+    color: #838383;
+}
+.third em{
+    font-size: .36rem;
+    font-weight: bold;
+    color: #ff4707;
+}
+.third b{
+    font-size: .36rem;
+    font-weight: bold;
+    color: #ff4707;
+}
+
+.third cite{
+    width: 1rem;
+    height: .48rem;
+    background: #f15626;
+    display:inline-block;
+    border-radius:.24rem;
+    margin-left: .25rem;
+    text-align: center;
+    line-height: .48rem;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .16rem;
+    margin-top: .2rem;
+    padding-left: .15rem;
+    padding-right: .15rem;
+
+}
+
