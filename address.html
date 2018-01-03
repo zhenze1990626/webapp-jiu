@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>address</title>
+    <meta name="renderer" content="webkit|ie-comp|ie-stand">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="apple-mobile-web-app-status-bar-style" content="black"/>
+       
+    <link rel="stylesheet" type="text/css" href="css/address.css"/>
+    <link rel="stylesheet" type="text/css" href="css/header.css"/>
+
+
+</head>
+<body>
+<div class="container">
+			<!--头部-->
+			<header>
+				<div class="left out"><img src="img/back.png" />后退</div>
+				<div class="center"><img src="img/big2.png" /><input type="text" placeholder="请输入您要搜索的内容" name="" id="" value="" /></div>
+				<div class="right">搜索</div>
+			</header>
+
+       <div class="section">
+       	 <form action="post" name="" class="auto">
+       <input type="text"  name="name" class="name" placeholder="请输入收货人姓名"/>
+        <div class="xianshi1"></div>
+       <input type="text" name="phone" class="phone" placeholder="请输入收货人手机号"/>
+        <div class="xianshi2"></div>
+        
+      <div class="outer">
+	<select name="province" id="province">
+		<option value="请选择">请选择</option>
+	</select>
+	<select name="city" id="city">
+		<option value="请选择">请选择</option>
+	</select>
+	<select name="town" id="town">
+		<option value="请选择">请选择</option>
+	</select>
+</div>
+        
+       <input type="text" name="address" class="address" placeholder="请输入街道地址"/>
+        <div class="xianshi3"></div>
+    </form>
+    
+    <!--保存-->
+<div class="preservation">
+    <div class="preservation2">保存</div>
+    <div>取消</div>
+</div>
+
+
+<!--警告-->
+<div class="alert">
+    <div class="title">警告</div>
+    <div class="title2">
+        <div class="detail1">您输入的信息不完整将无法保存</div>
+        <div class="detail2">请将收货信息补充完整后再保存</div>
+        <div class="detail3">或使用其他已保存收货地址</div>
+
+    </div>
+    <div class="title3">确定</div>
+
+
+</div>
+
+<!--黑幕-->
+<div class="black3"></div>
+
+       </div>
+
+
+</div>
+
+</body>
+</html>
+<script src="js/jquery-3.1.1.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/rem.js"></script>
+<script src="js/out.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/area.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/select.js" type="text/javascript" charset="utf-8"></script>
+<script src="js/address.js"></script>
